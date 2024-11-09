@@ -4,16 +4,18 @@ public class RemoveBrackets {
       // TC : O(n)
       // SC : O(n)
 
-        String temp = "" ;
+      // using StringBuilder method for better performance
+
+        StringBuilder temp = new StringBuilder() ;
 
         for(int i = 0 ; i < str.length() ; i++) {
             char ch = str.charAt(i) ;
 
             if(ch != '(' && ch != ')') {
-                temp = temp + ch ;
+              temp.append(ch) ;
             }
         }
-        return temp ;
+        return temp.toString() ;
     }
 
     public static void main(String[] args) {
