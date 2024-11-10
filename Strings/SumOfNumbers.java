@@ -25,6 +25,5 @@ public class SumOfNumbers {
     public static void main(String[] args) {
         String str = "1bc268";
         System.out.println("Sum: " + sumOfNumbers(str));
-        ;
-    }
+    }      /* Output - Sum: 269    */
 }
