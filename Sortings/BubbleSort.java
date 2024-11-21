@@ -13,9 +13,9 @@ public class BubbleSort {
         }
 
         /*
-         * TC : O(N^2)
-         * SC : O(1)
-         */
+        * TC : O(N^2)
+        * SC : O(1)
+        */
         
         System.out.print("Sorted Array: ");
         for(int i = 0 ; i < n ; i++) {
@@ -29,7 +29,7 @@ public class BubbleSort {
         bubbleSort(arr, n);
      }
 
-     /*
-      * Output -  Sorted Array: 9 13 20 25 46 52 
-     */
+    /*
+    * Output -  Sorted Array: 9 13 20 25 46 52 
+    */
 }
