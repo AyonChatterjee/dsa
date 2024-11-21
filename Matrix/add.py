@@ -1,3 +1,5 @@
+import numpy as np
+
 A = [[1 , 2 , 3],
      [4, 5 , 6],
      [7 , 8 , 9]]
@@ -6,21 +8,12 @@ B = [[3 , 4 , 5],
      [6 , 2 , 3] , 
      [7 , 8 ,9]]
 
-C = [[0 , 0 , 0],
-     [0 , 0 , 0],
-     [0 , 0 , 0]]
+C = np.array(A) + np.array(B)
 
-
-for i in range(len(A)):
-    for j in range(len(A[0])):
-        C[i][j] = A[i][j] + B[i][j]
-
-
-for x in C:
-    print(x)
+print(C)
 
 
 # Output : 
-# [4, 6, 8]
-# [10, 7, 9]
-# [14, 16, 18]
+# [[ 4  6  8]
+# [10  7  9]
+# [14 16 18]]
