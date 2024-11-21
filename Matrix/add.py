@@ -18,5 +18,9 @@ for i in range(len(A)):
 
 for x in C:
     print(x)
-   
-       
+
+
+# Output : 
+# [4, 6, 8]
+# [10, 7, 9]
+# [14, 16, 18]
